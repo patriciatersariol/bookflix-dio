@@ -8,10 +8,19 @@
 }
 
 .botao {
+    background: linear-gradient(45deg, #e8c0de, #636FA4);
     display: flex;
     align-items: center;
     width: 300px;
     margin-top: 5px;
+    color: #432F70;
+    font-weight: bold;
+}
+
+.botao:hover{
+    color: blanchedalmond;
+    font-size: 16px;
+    background: linear-gradient(45deg, rgb(205, 99, 219), rgb(255, 184, 223))
 }
 
 .circle1{
@@ -34,4 +43,8 @@
     clip-path: circle(20% at left 80%);
     background: linear-gradient(45deg, #e8c0de, #636FA4);
     z-index: -1;
+}
+
+a {
+    text-decoration: none;
 }

@@ -38,3 +38,15 @@ body {
     font-size: 18px;
 }
 
+.botao {
+    background: linear-gradient(45deg, #e8c0de, #636FA4);
+    display: flex;
+    align-items: center;
+    color: #432F70;
+    font-weight: bold;
+}
+
+.botao:hover{
+    color: blanchedalmond;
+    background: linear-gradient(45deg, rgb(205, 99, 219), rgb(255, 184, 223))
+}
